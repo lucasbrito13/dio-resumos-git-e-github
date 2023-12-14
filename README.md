@@ -16,15 +16,17 @@ Repositorio para armazenar resumos sobre Git e GitHub do curso de Versionamento 
 
 
 ## Comandos mais usados
+Para criar um repositório local:
 ````
-mkdir (Para criar um repositório local) 
+mkdir nomeExemplo 
 ````
+Para inicializar a pasta como repositório:
 ````
-git init (Para inicializar a pasta como repositório)
+git init 
 ````
-
+Conectar repositório local com repositório remoto:
 ````
-git remote add origin (Conectar repositório local com repositório remoto)
+git remote add origin https://github.com/lucasbrito13/dio-resumos-git-e-github
 ````
 
 ## Referencias 
