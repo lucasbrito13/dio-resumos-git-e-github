@@ -26,7 +26,25 @@ git init
 ````
 Conectar repositório local com repositório remoto:
 ````
-git remote add origin https://github.com/lucasbrito13/dio-resumos-git-e-github
+- git remote add origin https://github.com/lucasbrito13/dio-resumos-git-e-github
+
+- git branch -M main
+
+- gitpush -u origin main
+````
+Adiciona arquivo(os) para área de preparação do commit
+````
+git add README.md (especificando o arquivo)
+
+git add . (o ponto indica que vai adicionar todos os arquivos para área de preparação do commit)
+````
+Remover arquivos da área de preparação do commit
+````
+Existem duas formas, e as duas tem os mesmo resultado:
+
+git reset resumos/aula-01.md
+
+git restore --staged resumos/aula-02.md
 ````
 
 ## Referencias 
